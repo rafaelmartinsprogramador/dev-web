@@ -1,0 +1,32 @@
+@media screen and (min-width: 768px) {
+    #descricao {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (min-width: 360px) {
+    #descricao {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+      #areas .icon {
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+}
+
+@media screen and (max-width: 411px) {
+    .border-first-button {
+        margin-top: -50px;
+        background-color: red;
+    }
+
+    #test {
+        margin-right: 10px;
+    }
+}
