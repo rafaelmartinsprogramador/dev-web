@@ -20,14 +20,15 @@
       }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 430px) { /* 420px */
     .border-first-button {
         margin-right: -20px;
+        background-color: lightblue;
     }
 }
 
 @media screen and (max-width: 438px) {
     #blog-news-title {
-        font-size: 20px;
+        font-size: 18px;
     }
 }
