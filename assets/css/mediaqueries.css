@@ -45,10 +45,6 @@
     .down-content {
         margin-bottom: -50px;
     }
-
-    .fill-form {
-        margin: auto;
-    }
 }
 
 @media screen and (max-width: 420px) { /* 420px */
