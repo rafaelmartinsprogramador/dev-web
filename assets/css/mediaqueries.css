@@ -1,3 +1,10 @@
+@media screen and (max-width: 991px) {
+    #banner-text {
+        margin: auto;
+        padding: 0px 10px 20px 10px;
+    }
+}
+
 @media screen and (min-width: 768px) {
     #descricao {
         margin-bottom: 40px;
@@ -30,13 +37,17 @@
     }
 }
 
-@media screen and (max-width: 413px) {
-    .right-content {
-
+@media screen and (max-width: 480px) {
+    .right-content , .post-item {
+        display: none;
     }
 
-    #blog-news-title {
-        display: inline-block;
+    .down-content {
+        margin-bottom: -50px;
+    }
+
+    .fill-form {
+        margin: auto;
     }
 }
 
