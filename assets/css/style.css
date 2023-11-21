@@ -1952,14 +1952,15 @@ ul {
   padding: 0px;
 }
 .footer-section {
-background: #151414;
-position: relative;
+  background: #151414;
+  position: relative;
+  margin-top: 100px;
 }
 .footer-cta {
 border-bottom: 1px solid #373636;
 }
 .single-cta i {
-color: #ff5e14;
+color: #726AE3;
 font-size: 30px;
 float: left;
 margin-top: 8px;
@@ -2023,14 +2024,23 @@ line-height: 38px;
 border-radius: 50%;
 }
 .facebook-bg{
-background: #3B5998;
+  background: #3B5998;
 }
-.twitter-bg{
-background: #55ACEE;
+.instagram-bg {
+  background: linear-gradient(to right, #833AB4, #E1306C, #FD1D1D, #F56040, #FFAD40);
+  font-size: 20px;
 }
-.google-bg{
-background: #DD4B39;
+
+.website-bg {
+  background: rgb(0, 110, 255);
+  font-size: 20px;
 }
+
+.whatsapp-bg{
+  background: green;
+  font-size: 20px;
+}
+
 .footer-widget-heading h3 {
 color: #fff;
 font-size: 20px;
@@ -2045,7 +2055,7 @@ left: 0;
 bottom: -15px;
 height: 2px;
 width: 50px;
-background: #ff5e14;
+background: #726AE3;
 }
 .footer-widget ul li {
 display: inline-block;
@@ -2054,7 +2064,7 @@ width: 50%;
 margin-bottom: 12px;
 }
 .footer-widget ul li a:hover{
-color: #ff5e14;
+color: #726AE3;
 }
 .footer-widget ul li a {
 color: #878787;
@@ -2071,18 +2081,18 @@ background: #2E2E2E;
 border: 1px solid #2E2E2E;
 color: #fff;
 }
+
 .subscribe-form button {
   position: absolute;
   right: 0;
-  background: #ff5e14;
+  background: #726AE3;
   padding: 13px 20px;
-  border: 1px solid #ff5e14;
+  border: 1px solid #726AE3;
   top: 0;
 }
 .subscribe-form button i {
 color: #fff;
 font-size: 22px;
-transform: rotate(-6deg);
 }
 .copyright-area{
 background: #202020;
@@ -2094,14 +2104,14 @@ font-size: 14px;
 color: #878787;
 }
 .copyright-text p a{
-color: #ff5e14;
+color: #726AE3;
 }
 .footer-menu li {
 display: inline-block;
 margin-left: 20px;
 }
 .footer-menu li:hover a{
-color: #ff5e14;
+color: #726AE3;
 }
 .footer-menu li a {
 font-size: 14px;
