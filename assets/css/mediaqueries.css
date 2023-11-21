@@ -27,6 +27,12 @@
       }
 }
 
+@media screen and (max-width: 767px) {
+    .footer-social-icon {
+        margin-bottom: 20px;
+    }
+}
+
 @media screen and (max-width: 390px) { /* 420px */
     .border-first-button {
         margin-right: -25px;
