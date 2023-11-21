@@ -32,8 +32,8 @@
         margin-bottom: 20px;
     }
 
-    .contactNumber {
-        color: red;
+    #contactNumber {
+        color: #757575;
     }
 }
 
