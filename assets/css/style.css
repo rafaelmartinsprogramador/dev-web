@@ -1956,8 +1956,11 @@ ul {
   background: #151414;
   position: relative;
   margin-top: 100px;
+}
+
+.footer {
   padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 10px;
 }
 
 .footer-cta {
