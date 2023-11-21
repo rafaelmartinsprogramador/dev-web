@@ -31,6 +31,10 @@
     .footer-social-icon {
         margin-bottom: 20px;
     }
+
+    .contactNumber {
+        color: red;
+    }
 }
 
 @media screen and (max-width: 390px) { /* 420px */
