@@ -18,12 +18,30 @@
 }
 
 @media screen and (max-width: 500px) {
-      #areas .icon {
-        margin: auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+      #areas5 .icon .menu {
+        margin-left: 20px;
+      }
+
+      #areas4 .icon {
+        
+      }
+
+      #areas3 .icon {
+
+      }
+
+      #areas2 .icon {
+
+      }
+
+      #areas1 .icon {
+        margin-left: -10px;
+      }
+
+      #God {
+        margin-left: -10px;
         text-align: center;
+        margin: auto;
       }
 }
 
@@ -73,3 +91,17 @@
         margin-left: -25px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    /* Quando a largura da tela for 768px ou menos, ajuste para uma coluna */
+    .card {
+      flex: 0 1 calc(100% - 20px);
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    /* Quando a largura da tela for 480px ou menos, ajuste para uma coluna */
+    .card {
+      flex: 0 1 calc(100% - 20px);
+    }
+  }

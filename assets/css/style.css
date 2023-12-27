@@ -1385,6 +1385,54 @@ Services Style
 --------------------------------------------- 
 */
 
+.container-card {
+  max-width: 1300px;
+  margin: 0 auto; /* Centraliza o container na tela */
+  margin-top: 150px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 400px; /* Defina a largura desejada para os cards */
+  margin: 10px;
+  background-color: #FA65B1; /* Adiciona uma cor de fundo para os cards */
+  border: 1px solid #D17BB2;
+  color: white;
+  border-radius: 30px;
+  box-shadow: 10px 10px 15px -3px rgba(0, 0, 0, 0.301);
+}
+
+.card img {
+  max-width: 100%; /* Ajusta a largura da imagem para ser responsiva */
+  height: auto;
+}
+
+.card-body {
+  padding: 20px;
+  text-align: center; /* Centraliza o conteúdo dentro do card */
+}
+
+.card-title {
+  margin-top: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.listCard {
+  text-align: left;
+  list-style: inside;
+}
+
+/*
 .services {
   padding-top: 130px;
   position: relative;
@@ -1556,6 +1604,12 @@ Services Style
   font-size: 15px;
   font-weight: 400;
 }
+
+#God {
+  border: 3px solid lightblue;
+  
+}
+*/
 
 /* 
 ---------------------------------------------
